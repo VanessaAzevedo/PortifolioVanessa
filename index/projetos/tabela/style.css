@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+
+th, td{
+    border: 1px dotted  black;
+    padding: 8px;
+}
+
+thead{
+    background-color: gray;
+}
+
+tbody{
+    background-color:rgb(245, 233, 233);
+}
+
+tr:hover{
+    background-color: white;
+}
+
+td:hover{
+    background-color: #ee40ab;
+}
+.elemento_copo1:hover{
+    background-color: #0bf0f0;
+}
+.teste:hover{
+    color: #ec4217;
+}
+

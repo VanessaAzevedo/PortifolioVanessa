@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color: hsl(120, 55%, 34%);
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+label, input, button{
+    margin: auto;
+    align-items: center;
+    display:block;
+    margin-bottom: 5px ;
+    border-radius: 5px; 
+}
+input{
+    display: inline;
+
+}
+button{
+    background-color:  green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(12, 197, 12);
+    
+}
+#resultado{
+    background-color: green;
+    padding: 50px;
+    width: 100px;
+    border-radius: 5px; 
+    color: white;
+}
+
+fieldset{
+    width: 30%;
+    margin: auto;
+}
+
+fieldset{
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+@keyframes animacao{
+    0%{
+        width: 100%;
+        background-color: rgb(255, 192, 203);
+    }
+    50%{
+        width: 50%;
+        background-color: #00ccff;
+    }
+    100%{
+        width: 100%;
+    } 
+}
+.elemento{
+   font-size: 100px;
+   padding-left: 25px;
+   font-weight: bold;
+   color: hsl(0, 2%, 41%);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   height: 200px;
+   border-radius: 5px;
+   background-color: #4af805;
+   animation-name: animacao;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}

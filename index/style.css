@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+header {
+    background-color: #a21874;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #fea2d0;
+}
+
+.portifolio{
+    background-color: #f84fa3;
+    padding: 50px;
+    padding-bottom: 20px !important;
+}
+
+h1, h2{
+    color: white;
+    font-size: 60px;
+    margin-top: 0;
+    line-height: 20px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.projetosdocurso{
+    color: #a21874;
+    text-align: center;
+    padding-top: 40px;
+}
+
+img{
+    width: auto !important;
+    max-width: 250px !important;
+    height: auto;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.borda{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.imagens {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-gap: 18px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.estilolabel{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.divimagembaskara{
+    padding-top: 39px;
+    padding-bottom: 44px;
+    
+}
+
+.divanimacao{
+    padding-bottom: 21px;
+}
+
+.divcalculadora{
+    padding-bottom: 55px;
+}
+
+.divcalculadora{
+    padding-bottom: 27px;
+    padding-top: 28px;
+}
+
+.footer{
+    background-color: #f0eaec;
+    padding: 1px;
+    color: rgb(114, 110, 110);
+    text-align: center;
+}
+
+
